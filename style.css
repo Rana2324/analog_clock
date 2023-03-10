@@ -15,7 +15,7 @@ body {
   height: 300px;
   background: rgb(255, 255, 255, 0.7);
   border-radius: 50%;
-  border: 1px solid black;
+  border: 4px solid black;
   position: relative;
 }
 .number {
@@ -61,6 +61,54 @@ body {
 .item12 {
   transform: rotate(360deg);
 }
+.one {
+  transform: rotate(7deg);
+  position: absolute;
+}
+.two {
+  transform: rotate(306deg);
+  position: absolute;
+}
+.three {
+  transform: rotate(268deg);
+  position: absolute;
+}
+.four {
+  transform: rotate(240deg);
+  position: absolute;
+}
+.five {
+  transform: rotate(206deg);
+  position: absolute;
+}
+.six {
+  transform: rotate(178deg);
+  position: absolute;
+}
+.seven {
+  transform: rotate(153deg);
+  position: absolute;
+}
+.eight {
+  transform: rotate(120deg);
+  position: absolute;
+}
+.nine {
+  transform: rotate(89deg);
+  position: absolute;
+}
+.ten {
+  transform: rotate(67deg);
+  position: absolute;
+}
+.eleven {
+  transform: rotate(27deg);
+  position: absolute;
+}
+.twelve {
+  transform: rotate(3deg);
+  position: absolute;
+}
 
 .hand {
   width: 10px;
@@ -70,6 +118,7 @@ body {
   bottom: 50%;
   transform: translate(-50%);
   position: absolute;
+  transform-origin: bottom;
 }
 .second {
   height: 45%;
